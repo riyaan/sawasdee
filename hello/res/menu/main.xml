@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:hello="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!-- Search, should appear in the Action Bar -->
+    <!-- android:showAsAction="ifRoom"  -->
+    <item        
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"        
+        android:title="@string/action_search"
+        hello:showAsAction="ifRoom"
+        />           
+    
+    <!-- Settings, should always appear in the Action Bar Overflow -->
+    <!-- android:showAsAction="never" -->
+    <item        
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"        
+        android:title="@string/action_settings"
+        hello:showAsAction="never"
+        />
+
+</menu>
